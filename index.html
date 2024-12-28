@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raheeb Abdulsalam</title>
+
+    <!--Box icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--custom css-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--The Favicon of my website. This have been created using https://favicon.io/favicon-generator/-->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+</head>
+
+
+<body>
+
+    <!-- header design -->
+
+    <header class="header">
+        <a href="#" class="logo">Raheeb Abdulsalam</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Raheeb Abdulsalam</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/raheebabdulsalam/"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://twitter.com/Raheeb97"><i class='bx bxl-twitter'></i></a>
+                <a href="https://github.com/RaheebAbdulsalam"><i class='bx bxl-github'></i></a>
+            </div>
+            <a href="cv/Raheeb Abdulsalam CV.pdf" class="btn" target='_blank'>Download CV</a>
+        </div>
+        <!--My Personal Image-->
+        <!-- <div class="home-img">
+            <img src="images/the last image.png" alt="my profile image">
+        </div> -->
+    </section>
+
+
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <!-- <img src="images/2023-photoaidcom-cropped.png" alt=""> -->
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Software Engineer & IT Technician!</h3>
+            <p> I am a passionate and versatile individual with a First-Class Honours degree in Computer Science,
+                complemented by hands-on experience in software development,and IT support. My training
+                as an IT Technician at SCC equipped me with the skills to install, configure,
+                troubleshoot, and maintain hardware, software, and network systems, enabling me to provide seamless IT
+                solutions.
+
+                As a freelance software engineer at G2i, I evaluated the quality of AI-generated code, solved complex
+                coding problems, and wrote robust, functional, and efficient code. My role involved creating
+                human-readable summaries, reviewing code for quality assurance, handling diverse projects, and enhancing
+                chatbot responses for speed and efficiency.
+
+            </p>
+            <div id="moreContent" style="display: none;">
+                <p> With expertise in programming languages like Java, Python, JavaScript, PHP, and HTML/CSS, and
+                    proficiency in frameworks such as Spring Boot, Laravel, and Bootstrap, I develop scalable and
+                    user-friendly software solutions tailored to client needs. My experience spans various domains,
+                    including IT support, web development, mobile app development, and sustainable technology
+                    initiatives. My commitment to sustainability and innovation is reflected in my work, such as
+                    contributing to e-waste reduction through device repair at ReCognition Circular CIC and volunteering
+                    to support underrepresented communities with technology access.
+
+                    I thrive on solving problems, staying ahead of industry trends, and leveraging emerging technologies
+                    to deliver impactful results. Explore my portfolio to discover how my skills and experience can
+                    bring
+                    your vision to life. Let’s collaborate and create something exceptional together.</p>
+            </div>
+            <a id="readMoreLink" class="btn" onclick="toggleMoreContent()">Read More</a>
+        </div>
+    </section>
+
+    <!-- services section design -->
+
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+
+        <div class="services-container">
+
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Software Development</h3>
+                <p>I build scalable and tailored software solutions that streamline your business operations and drive
+                    efficiency. From concept to deployment, I leverage the latest technologies and industry best
+                    practices to deliver reliable software.</p>
+            </div>
+
+
+            <div class="services-box">
+                <i class='bx bxl-html5'></i>
+                <h3>Web Development</h3>
+                <p>I create modern, responsive websites and web applications tailored to your needs. Leveraging
+                    cutting-edge frameworks and best practices, I ensure your digital presence is impactful,
+                    user-friendly, and optimised for performance.</p>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bxl-android'></i>
+                <h3>Mobile App Development</h3>
+                <p>Designing and developing intuitive mobile applications that enhance user experience and meet your
+                    business goals. From productivity tools to specialized apps, I deliver solutions that stand out in
+                    functionality and design.</p>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bxs-data'></i>
+                <h3>Data Analysis</h3>
+                <p>Transforming raw data into actionable insights through advanced analysis and visualization
+                    techniques. Using tools like Python, Pandas, and Power BI, I help businesses make data-driven
+                    decisions effectively.</p>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bxs-wrench'></i>
+                <h3>IT Support & Device Repair</h3>
+                <p>Providing expert IT support and device repair services to ensure your technology operates seamlessly.
+                    From troubleshooting to maintenance, I help resolve issues efficiently, minimising downtime and
+                    enhancing reliability.</p>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bxs-paint'></i>
+                <h3>Creative Design</h3>
+                <p>Crafting visually appealing designs and animations using tools like Blender and Adobe Creative Suite.
+                    Whether it's for branding, marketing, or multimedia projects, I deliver creative solutions that make
+                    an impact.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Portifolio section design -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+        <div class="portfolio-container">
+
+
+            <div class="portfolio-box">
+                <img src="images/Mobile-App.jpg" alt="PerfectDay Planner">
+                <div class="portfolio-layer">
+                    <h4>PerfectDay Planner</h4>
+                    <p>An advanced android application designed to organise and manage special
+                        days and events. </p>
+                    <a href="https://github.com/RaheebAbdulsalam/PlanAhead-Android-Application.git"><i
+                            class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+
+
+            <div class="portfolio-box">
+                <img src="images/ecommerce-website 2.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>E-commerce Website</h4>
+                    <p>An e-commerce platform designed for fashion enthusiasts seeking a convenient and trustworthy
+                        online store to shop for their clothing and accessories.</p>
+                    <a href="https://github.com/RaheebAbdulsalam/HDC_E-Commerce.git"><i
+                            class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+
+            <div class="portfolio-box">
+                <img src="images/Restaurant-Self-Service-Kiosks.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>KIOSK Ordering System</h4>
+                    <p>A KIOSK style ordering system which helps customers and staff to order and
+                        pay for food. </p>
+                    <a href="https://github.com/RaheebAbdulsalam/OOP-Kiosk-System.git"><i
+                            class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+
+            <div class="portfolio-box">
+                <img src="images/games dev.jpeg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Game Development</h4>
+                    <p>This C# Unity game is an endless runner set in a desert landscape. Players slide across the
+                        terrain, collecting coins for points. </p>
+                    <a href="https://github.com/RaheebAbdulsalam/Desert-Sliding-Game.git"><i
+                            class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+
+
+            <div class="portfolio-box">
+                <img src="images/how-to-use-a-random-password-generator_wnx7.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Password Generator App</h4>
+                    <p> An app that has been created within JavaFx is a simple utility that generates random passwords
+                        based on the user's preferences.</p>
+                    <a href="https://github.com/RaheebAbdulsalam/Password-Generator-App.git"><i
+                            class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/tic tac toe.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Tic-Tac-Toe-Game</h4>
+                    <p>A simple implementation of the Tic-Tac-Toe game using JavaFX. The game allows two players to take
+                        turns placing their symbols (X and O) on a 3x3 grid. The first player to form a line of three
+                        symbols in a row, column, or diagonal wins the game.</p>
+                    <a href="https://github.com/RaheebAbdulsalam/Tic-Tac-Toe-Game.git"><i
+                            class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <!-- <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form> -->
+
+        <form method="post" action="send_email.php">
+            <div class="input-box">
+                <input type="text" name="name" placeholder="Full Name" required>
+                <input type="email" name="email" placeholder="Email Address" required>
+            </div>
+            <div class="input-box">
+                <input type="tel" name="phone" placeholder="Mobile Number" required>
+                <input type="text" name="subject" placeholder="Email Subject" required>
+            </div>
+            <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+
+
+        <div class="social-media-contacts">
+            <a href="mailto:raheebabdulsalam@.com"><i class='bx bxs-envelope'></i></a>
+            <a href="https://www.linkedin.com/in/raheebabdulsalam/"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://twitter.com/Raheeb97"><i class='bx bxl-twitter'></i></a>
+        </div>
+    </section>
+
+
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Raheeb | all Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home">
+                <i class='bx bx-up-arrow-alt'></i>
+            </a>
+        </div>
+    </footer>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
